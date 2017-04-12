@@ -1,0 +1,37 @@
+{
+  "name": "hapi-seo",
+  "version": "1.0.0",
+  "description": "Hapi SEO plugin for Single Page Application (SPA)",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/nasa8x/hapi-seo.git"
+  },
+  "keywords": [
+    "seo",
+    "spa",
+    "spa seo",
+    "prerender",
+    "hapi",
+    "hapi js",
+    "angular seo",
+    "vue seo",
+    "react seo",
+    "backbone seo",
+    "ember seo",
+    "aurelia seo",
+    "search engine optimize"
+  ],
+  "author": "Nasa8x",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://gitlab.com/nasa8x/hapi-seo/issues"
+  },
+  "homepage": "https://gitlab.com/nasa8x/hapi-seo#README",
+  "dependencies": {   
+    "mix-utils": "^1.0.15"    
+  }
+}
