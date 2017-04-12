@@ -41,7 +41,8 @@ server.register([vision, seo], function (err) {
 Config route return content when detect crawler 
 
 ```js
-server.route({
+server.route([
+    {
         method: 'GET',
         path: '/category/{id}',
         config: {           
@@ -93,5 +94,6 @@ server.route({
 
         }
 
-    });
+    }
+    ]);
 ```

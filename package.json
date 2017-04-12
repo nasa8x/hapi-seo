@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://gitlab.com/nasa8x/hapi-seo.git"
+    "url": "git+https://github.com/nasa8x/hapi-seo"
   },
   "keywords": [
     "seo",
@@ -28,9 +28,9 @@
   "author": "Nasa8x",
   "license": "MIT",
   "bugs": {
-    "url": "https://gitlab.com/nasa8x/hapi-seo/issues"
+    "url": "https://github.com/nasa8x/hapi-seo/issues"
   },
-  "homepage": "https://gitlab.com/nasa8x/hapi-seo#README",
+  "homepage": "https://github.com/nasa8x/hapi-seo#README",
   "dependencies": {   
     "mix-utils": "^1.0.15"    
   }
