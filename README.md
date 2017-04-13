@@ -17,7 +17,19 @@ var Hapi = require('hapi'),
 var server = new Hapi.Server();
 server.connection({ port: 8080, host: 'localhost' });
 
-server.register([vision, seo], function (err) {
+server.register([
+    {
+        register: vision,
+        options:{}
+    }, 
+    {
+        register: seo,
+        options:{
+            enabled: true, // default handler all routes 
+            view: 'index.html', // return default view when detect not a crawler 
+            data: {} // default data view 
+        }
+    }], function (err) {
 
        // Register Mustache Templates rendering 
         server.views({
