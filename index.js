@@ -21,12 +21,10 @@ exports.plugin = {
         server.ext('onPreHandler', function (request, h) {
 
             conf = Object.assign({}, conf, request.route.settings.plugins.seo || {});
-            if ((conf.enabled && request.method === 'get' && _.isCrawl(request.headers['user-agent'])) || conf.excludes.some(function (regex) { return regex.test(request.url.pathname); })) {
-                return h.continue;
-            }
-            else {
+            if (request.method === 'get' && !_.isCrawl(request.headers['user-agent']) && !conf.excludes.some(function (regex) { return regex.test(request.url.pathname); })) {
                 return h.view(conf.view, conf.data).takeover();
             }
+            return h.continue;
         });
 
 

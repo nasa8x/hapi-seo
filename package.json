@@ -1,6 +1,6 @@
 {
   "name": "hapi-seo",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Hapi SEO plugin for Single Page Application (SPA)",
   "main": "index.js",
   "scripts": {
