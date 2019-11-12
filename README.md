@@ -36,12 +36,12 @@ server.register([
         register: seo,
         options:{
             enabled: true, // default handler all routes 
-            view: 'index.html', // return default view when detect not a crawler 
+            view: 'index.html', // return default view when detect not a crawler      
             data: {}, // default data view 
             excludes: [ // excludes path or file ext
                 /upload\/.*?/ig,
                 /www\/.*?/ig,
-                /\.(js|css|xml|less|doc|txt|docx|ico|zip|rar|mp3|exe|avi|mp4|mpg|mpeg|psd|ai|xsl|m4a|wmv|rss|ppt|flv|swf|dat|dmg|iso|m4v|torrent|gif|jpg|jpeg|tiff|png)$/ig
+                /\.(js|css|gif|jpg|jpeg|tiff|png|svg|woff|woff2|ttf|xml|less|doc|txt|docx|ico|zip|rar|mp3|exe|avi|mp4|mpg|mpeg|psd|ai|xsl|m4a|wmv|rss|ppt|flv|swf|dat|dmg|iso|m4v|torrent)$/ig
             ]
         }
     }], function (err) {
