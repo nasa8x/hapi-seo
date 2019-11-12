@@ -1,8 +1,8 @@
 {
   "name": "hapi-seo",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Hapi SEO plugin for Single Page Application (SPA)",
-  "main": "main.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -31,7 +31,7 @@
     "url": "https://github.com/nasa8x/hapi-seo/issues"
   },
   "homepage": "https://github.com/nasa8x/hapi-seo#README",
-  "dependencies": {   
-    "mix-utils": "^1.0.15"    
+  "dependencies": {
+    "mix-dash": "^1.1.15"
   }
 }
